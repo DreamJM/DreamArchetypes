@@ -5,7 +5,7 @@ This project is a collection of customized maven archetypes.
 ### Java Project Archetype
 * single-project-archetype: archetype for common java project
 * parent-project-archetype: archetype for common java project included in a parent project
-===========================================================================================
+==================================================================================</br>
 Above archetypes are used to generate initial java projects. In the generated java project, the following plugins are integrated:
 * [junit4](http://junit.org/junit4): Java Test Framework
 * [Findbugs](http://findbugs.sourceforge.net/): A program which uses static analysis to look for bugs in Java code
