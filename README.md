@@ -1,8 +1,8 @@
-#DreamArchetypes
+# DreamArchetypes
 This project is a collection of customized maven archetypes.
 
 ## Modules
-###Java Project Archetype
+### Java Project Archetype
 * single-project-archetype: archetype for common java project
 * parent-project-archetype: archetype for common java project included in a parent project
 ===========================================================================================
@@ -18,12 +18,12 @@ Goto the root of local cloned repository in shell and install this artifact into
 ```
 $ mvn install
 ```
-###Generate initial project
+### Generate initial project
 ```
 $ mvn archetype:generate -DarchetypeGroupId=com.dream.maven.archetypes -DarchetypeArtifactId=[single-project-archetype/parent-project-archetype] -DarchetypeVersion=1.0 -DgroupId=[your.groupId] -DartifactId=[your.artifactId] -Dversion=[your.version]
 ```
 
-###Project Management
+### Project Management
 Goto your project root directory in shell
 ```
 $ mvn [package/install/deploy] site
