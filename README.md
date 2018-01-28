@@ -5,6 +5,7 @@ This project is a collection of customized maven archetypes.
 ### Java Project Archetype
 * single-project-archetype: archetype for common java project
 * parent-project-archetype: archetype for common java project included in a parent project
+* child-project-archetype: archetype for child project(used with parent-project-archetype)
 ==================================================================================</br>
 Above archetypes are used to generate initial java projects. In the generated java project, the following plugins are integrated:
 * [junit4](http://junit.org/junit4): Java Test Framework
@@ -20,8 +21,9 @@ $ mvn install
 ```
 ### Generate initial project
 ```
-$ mvn archetype:generate -DarchetypeGroupId=com.dream.maven.archetypes -DarchetypeArtifactId=[single-project-archetype/parent-project-archetype] -DarchetypeVersion=1.0 -DgroupId=[your.groupId] -DartifactId=[your.artifactId] -Dversion=[your.version]
+$ mvn archetype:generate -DarchetypeGroupId=com.dream.maven.archetypes -DarchetypeArtifactId=[single-project-archetype/parent-project-archetype] -DarchetypeVersion=1.0 -DgroupId=[your.groupId] -DartifactId=[your.artifactId] -Dversion=[your.version] -DinteractiveMode=false
 ```
+BTW: when generating project using child-project-archetype, you can add a additional parameter to specify parent artifact id by adding "-DparentArtifactId=[parent.archtype.id]"
 
 ### Project Management
 Goto your project root directory in shell

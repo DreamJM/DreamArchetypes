@@ -15,5 +15,6 @@
     <modules>
         <module>single-project-archetype</module>
         <module>parent-project-archetype</module>
+        <module>child-project-archetype</module>
     </modules>
 </project>
