@@ -3,19 +3,17 @@
 #set( $symbol_escape = '\' )
 package ${package};
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-import static org.junit.Assert.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 /**
  * Unit ${artifactId} for simple App.
  */
 public class AppTest {
-    /**
-     * Rigourous Test :-)
-     */
+
     @Test
-    public void ${artifactId}App() {
+    void ${artifactId}App() {
         App.main(null);
         assertTrue(true);
     }

@@ -6,11 +6,10 @@
     <parent>
         <groupId>com.dream.maven.archetypes</groupId>
         <artifactId>archetype-parent</artifactId>
-        <version>1.0</version>
+        <version>1.1</version>
     </parent>
 
     <artifactId>single-project-archetype</artifactId>
-    <version>1.0</version>
     <packaging>maven-archetype</packaging>
     <name>single-project-archetype</name>
 
